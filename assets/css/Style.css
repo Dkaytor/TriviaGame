@@ -1,0 +1,16 @@
+.jumbotron {
+    background-color:darkblue;
+    color: gold;
+    height: 150px;
+}
+
+body {
+    background-image: url("../images/HP-background.png" );
+}
+
+.startBox {
+        margin: 0 auto;
+        text-align: center;
+        padding: 4%;
+        margin-top: 10%;        
+    }
