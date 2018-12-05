@@ -14,3 +14,32 @@ body {
         padding: 4%;
         margin-top: 10%;        
     }
+
+    body .container {
+        background: white;
+        height: 100%;
+        text-align: center;
+        display: none;
+        margin-bottom: 5%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .timeRemaining {
+        text-align: center;
+    }
+
+    #time-remaining {
+        border: 15px;
+        height: 45px;
+        font-size: 35px;
+        
+    }
+
+    .showQuestions {
+        padding: 10px;
+        text-align: left;
+    }
