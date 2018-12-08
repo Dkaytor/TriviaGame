@@ -2,6 +2,7 @@
     background-color:darkblue;
     color: gold;
     height: 150px;
+    border-bottom: 25px;
 }
 
 body {
@@ -11,12 +12,15 @@ body {
 .startBox {
         margin: 0 auto;
         text-align: center;
-        padding: 4%;
-        margin-top: 10%;        
+        
+    }
+
+    h1 {
+        margin-top: 45px;
     }
 
     body .container {
-        background: white;
+        background: blueviolet;
         height: 100%;
         text-align: center;
         display: none;
@@ -30,6 +34,7 @@ body {
 
     .timeRemaining {
         text-align: center;
+       
     }
 
     #time-remaining {
@@ -42,4 +47,8 @@ body {
     .showQuestions {
         padding: 10px;
         text-align: left;
+    }
+
+    .endPage {
+        background: lightskyblue;
     }
