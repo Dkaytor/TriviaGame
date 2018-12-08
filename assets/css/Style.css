@@ -1,7 +1,7 @@
 .jumbotron {
     background-color:darkblue;
     color: gold;
-    height: 150px;
+    text-align: center;
     border-bottom: 25px;
 }
 
@@ -50,5 +50,7 @@ body {
     }
 
     .endPage {
-        background: lightskyblue;
+        background: lavender;
+        text-align: center;
+        font-size: 25px;
     }
