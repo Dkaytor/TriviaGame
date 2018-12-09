@@ -128,9 +128,12 @@ $(document).ready(function () {
 
     if (time <= 0) {
       $(".container").fadeOut(500);
-      var correctAnswers = 0;
-      var wrongAnswers = 0;
-      var unAnswered = 0;
+      $(".endPage").show();
+      checkAnswers();
+      $("#results").html("Here are your results!");
+      $("#correct-answer").html("Number of correct answers: " + numCorrect);
+      $("#wrong-answer").html("Number of incorrect answers: " + numIncorrect);
+      $("#no-answer").html("Number unanswered: " + numUnanswered);
     };
   };
 
